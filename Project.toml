@@ -1,6 +1,6 @@
 name = "GeneralizedEigenvalues"
 uuid = "5ca43dd8-00a9-46a1-afdd-d50f1bbb2a5d"
-authors = [Thijs Steel <thijs.steel@kuleuven.be" and "Daan Huybrechs <daan.huybrechs@kuleuven.be> and contributors"]
+authors = ["Thijs Steel <thijs.steel@kuleuven.be, Daan Huybrechs <daan.huybrechs@kuleuven.be> and contributors"]
 version = "0.1.0"
 
 [deps]
