@@ -11,6 +11,8 @@ LinearAlgebra.eigvals!(A::AbstractMatrix{T}, B::AbstractMatrix{T}; kwargs...) wh
     generalized_eigvals!(A, B; kwargs...)
 ```
 
+*Note*: the intention is for this package to be temporary and to remain unregistered. Once the functionality is validated with sufficient testing, the goal is to merge into the [GenericLinearAlgebra](https://github.com/JuliaLinearAlgebra/GenericLinearAlgebra.jl) package. Meanwhile, anybody using this functionality, feel free to submit issues, tests or code.
+
 # How to use
 
 ```julia
