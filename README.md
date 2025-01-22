@@ -26,3 +26,9 @@ julia> eigvals(A, B)
  0.8914521716628669627775377453285786522762398515948895489745740716735863657953472 + 0.0im
  ```
  
+ # History and development
+
+ The code in this package has been written bij @thijssteel.
+ It was originally submitted as a pull request to [GenericLinearAlgebra.jl](https://github.com/JuliaLinearAlgebra/GenericLinearAlgebra.jl/pull/127). By making it available as
+ a package it can be used "as is", and hopefully tests can be added to improve robustness and help
+ integration in other packages.
